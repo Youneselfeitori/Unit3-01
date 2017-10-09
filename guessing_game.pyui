@@ -1,0 +1,106 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{77, 92}, {178, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "8F40BD9D-8E10-42D0-A275-17776AABB5EE",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Guess the number:",
+          "name" : "game_explanation_label",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{77, 156}, {200, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 17,
+          "frame" : "{{412, 368}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "9B074359-C4B2-4669-8A67-1C0C61A0F341",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "your_guessing_number_textfield",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{77, 209}, {80, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "number_guess_touch_up_inside",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Submit",
+          "uuid" : "F2392F26-E85A-4476-8C23-25EAC6C4D320",
+          "class" : "Button",
+          "name" : " check_button",
+          "font_size" : 15
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{77, 249}, {150, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "1599C21C-F3EA-433F-AE80-70F91DE6A4F4",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "correct_label",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{77, 249}, {150, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "655E86FC-F27A-474F-812E-F6182D9431A3",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "incorrect_label",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {1024, 768}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
